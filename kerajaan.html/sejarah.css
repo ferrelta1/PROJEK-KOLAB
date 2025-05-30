@@ -1,0 +1,82 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+
+.backgroundsejarah {
+  position: relative;
+  background-image: url(sejarahbg.jpg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backgroundraja {
+  position: relative;
+  background-image: url(raja.jpg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+    background-color: rgb(177, 144, 117);
+}
+.bwh {
+    background-color: rgb(102, 73, 50);
+}
+.my text {
+  color: rgb(255, 255, 255);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.card .text {
+  flex: 1;
+}
+
+.card h2 {
+  margin-top: 0;
+}
